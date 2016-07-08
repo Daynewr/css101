@@ -1,0 +1,68 @@
+
+
+body {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  border: 2px solid black;
+}
+
+label {
+  font-size: 16px;
+}
+
+.top-nav {
+  background-color: goldenrod;
+  height: 55px;
+}
+
+.top-nav li {
+  text-align: center;
+  padding-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0, 0.5);
+  border-radius: 3px;
+  display: inline-block;
+  width: 5em;
+  height: 1.5em;
+}
+
+.top-nav li:hover {
+  color: white;
+}
+
+#page-id {
+  color: red;
+}
+
+.page-class {
+  color: green;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.n-child section:nth-child(even){
+  border: 1px solid red;
+}
+
+.n-type section:nth-of-type(even){
+  border: 1px solid blue;
+}
+
+.top-nav li:first-of-type {
+  color:red;
+  font-weight: bold;
+}
+
+
+
